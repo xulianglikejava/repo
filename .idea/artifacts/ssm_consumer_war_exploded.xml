@@ -1,0 +1,34 @@
+<component name="ArtifactManager">
+  <artifact type="exploded-war" name="ssm_consumer:war exploded">
+    <output-path>$PROJECT_DIR$/ssm_consumer/target/ssm_consumer-1.0-SNAPSHOT</output-path>
+    <root id="root">
+      <element id="directory" name="WEB-INF">
+        <element id="directory" name="classes">
+          <element id="module-output" name="ssm_consumer" />
+        </element>
+        <element id="directory" name="lib">
+          <element id="archive" name="ssm_domain-1.0-SNAPSHOT.jar">
+            <element id="module-output" name="ssm_domain" />
+          </element>
+          <element id="library" level="project" name="Maven: org.springframework:spring-webmvc:unknown" />
+          <element id="library" level="project" name="Maven: javax.servlet:javax.servlet-api:unknown" />
+          <element id="library" level="project" name="Maven: javax.servlet.jsp:jsp-api:unknown" />
+          <element id="library" level="project" name="Maven: javax.servlet:jstl:unknown" />
+          <element id="library" level="project" name="Maven: com.fasterxml.jackson.core:jackson-databind:unknown" />
+          <element id="library" level="project" name="Maven: com.alibaba:dubbo:unknown" />
+          <element id="library" level="project" name="Maven: org.apache.zookeeper:zookeeper:unknown" />
+          <element id="library" level="project" name="Maven: com.github.sgroschupf:zkclient:unknown" />
+          <element id="library" level="project" name="Maven: javassist:javassist:unknown" />
+          <element id="library" level="project" name="Maven: com.alibaba:fastjson:unknown" />
+          <element id="library" level="project" name="Maven: log4j:log4j:unknown" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-log4j12:1.7.25" />
+          <element id="library" level="project" name="Maven: org.slf4j:slf4j-api:1.7.25" />
+        </element>
+      </element>
+      <element id="directory" name="META-INF">
+        <element id="file-copy" path="$PROJECT_DIR$/ssm_consumer/target/ssm_consumer-1.0-SNAPSHOT/META-INF/MANIFEST.MF" />
+      </element>
+      <element id="javaee-facet-resources" facet="ssm_consumer/web/Web" />
+    </root>
+  </artifact>
+</component>
